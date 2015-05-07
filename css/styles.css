@@ -1,0 +1,136 @@
+/* ====================================================== 
+ * 
+ * 
+ * 		EMAIL TEST APPLICATION
+ * 	
+ * 		Author: Joseph Alonzi
+ * 		Date: July 8th, 2014
+ * 
+ * 
+ * ====================================================== */
+
+body,html {
+	margin:0 auto;
+	color:#333;
+	font-family:sans-serif;
+}
+#page-frame {
+	position: relative;
+	width: 75%;
+	margin: 25px auto;
+}
+form {
+	width: 100%;
+	overflow-y: auto;
+}
+#email-form {
+	width:95%;
+	background:#FBFBFB;
+	box-shadow:0 2px 1px rgba(0,0,0,0.1);
+	padding:0 0 35px 55px;
+}
+input {
+	padding: 5px 10px;
+	font-size: 18px;
+	width: 95%;
+	border: 1px #CCC solid;
+}
+textarea {
+	width: 95%;
+	height: 550px;
+	border: 1px #CCC solid;
+	padding:5px 10px;
+	font-size: 14px;
+}
+
+.btn {
+	font-size: 12px;
+	padding: 10px 0;
+	color: #FFF;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+	background: #336699;
+	border-radius: 5px;
+	box-shadow:0 1px 1px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.15);
+	border: 1px rgba(0,0,0,0.15) solid;
+}
+input.btn-submit {
+	width: 150px;
+}
+.add-btn {
+	width:5%;
+	margin:-3px 0 0 10px;
+}
+.remove-btn {
+	width:65px;
+}
+.add-email {
+	width:90%;
+}
+.remove {
+	float:right;
+	margin-top:-28px;
+}
+.btn:hover {
+	background:#336688;
+}
+.btn:active {
+	border:1px rgba(0,0,0,0) solid;
+	box-shadow:inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.email-list {
+	position:relative;
+	width:90%;
+	padding:15px;
+	margin-bottom:3px;
+	border:1px #CCC solid;
+	font-size:14px;
+}
+input:focus, textarea:focus {
+	outline: none;
+	border: 1px #AAA solid;
+}
+
+header {
+	position:relative;
+	width:95%;
+	margin-bottom:25px;
+	overflow-y:auto;
+}
+header img {
+	float:left;
+	width:100px;
+	height:46px;
+	margin-top:15px;
+}
+#title {
+	float:right;
+}
+
+.email-success {
+	border: 1px #11ce2c solid;
+	background: #ddf6e0;
+}
+
+.email-fail {
+	border: 1px #e81a1a solid;
+	background: #f9a4a4;
+}
+
+.email-success, .email-fail {
+	position: relative;
+	width: 100%;	
+	color: #000;
+	padding: 10px 15px;
+	margin-bottom: 15px;
+}
+
+#footer {
+	position:relative;
+	margin:25px 0;
+	width:100%;
+	overflow-y:auto;
+}
+#footer img {
+	position:relative;
+	border:0;
+}
