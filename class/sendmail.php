@@ -30,8 +30,8 @@ class sendMail{
 		 * 	Set the Headers for the emaul.
 		 * 
 		 ****************************************************** */
-		$headers  = "From: 5thBusiness <donotreply@5thbusiness.com>\r\n";
-		$headers .= "Reply-To: 5thBusiness <donotreply@5thbusiness.com>\r\n";
+		$headers  = "From: Joseph <donotreply@alonzi.com>\r\n";
+		$headers .= "Reply-To: 5thBusiness <donotreply@alonzi.com>\r\n";
 		$headers .= "MIME-Version: 1.0\r\n";
 		$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 		
